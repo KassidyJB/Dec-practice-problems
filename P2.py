@@ -63,11 +63,11 @@ def choice_3(): #Trapezoid area = (a+b/2)h (ask for bases and height)
 
 ####Circle Function#####
 
-def choice_4(): #Circle area = 2*pi*r^2 (ask for radius)
+def choice_4(): #Circle area = pi*r^2 (ask for radius)
     pi = "3.14"
-    
-
-    pass
+    radii = input(f"\nEnter a radius\n>")
+    c_area = ({radii}^2)*pi
+choice_4()
 
 
 ####Rectangle function###
