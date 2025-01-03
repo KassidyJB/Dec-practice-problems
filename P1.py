@@ -21,10 +21,10 @@ else:
 ##Checking to see if the reversed string reads like original string
 
 if reverse != word:
-    print("This is not a palindrome")
+    print("This is not a palindrome")#if the reveresed word doesn't read the same backwards
 elif reverse == word.isspace():
-    print("This is not a palindrome")
-elif reverse == word:
-    print("This is a palindrome") #This conditional still doesn't work but the other condtionals of checking 
+    print("This is not a palindrome")#This conditional still doesn't work but the other condtionals of checking 
     #the reversed string do. MY program recognizes empty spaces and provides feedback to the user, but "This is 
     # a palindrome" still prints at the end of it. Most likely because empty strings are the same back and forth
+elif reverse == word:
+    print("This is a palindrome") #checks if word reversed is the 
