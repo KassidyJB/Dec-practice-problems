@@ -22,3 +22,5 @@ if reverse == word:
     print("This is a palindrome")
 elif reverse != word:
     print("This is not a palindrome")
+elif reverse.isspace():
+    print("You've entered spaces, this is empty.")
