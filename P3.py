@@ -8,4 +8,5 @@
 def unique():
     word = str(input(f"\nEnter a word: \n"))
     for l in word:
-        
+        print(l)
+        if l 
