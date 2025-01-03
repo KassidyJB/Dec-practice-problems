@@ -1,4 +1,4 @@
-import random
+import math
 
 #Problem 2: Area Calculator
 #DES:Create a program that says: "I can calculate the area of a shape for you.
@@ -37,13 +37,20 @@ def user_select():
 user_select()
 
 ####Triangle function###
-def choice_1(): #Circle area = 2*pi*r^2 (ask for radius)
+def choice_1(): #Triangle area = (bh)/2 (ask for base and height)
+    tri_b = (str(float(input(f"\n Enter a base: \n>"))))
+    tri_h =  (str(float(input(f"\nEnter a height: \n>"))))
+    print(f"Triangle area: ")
+
     
     pass 
 
 ####Square function####
 
 def choice_2(): #Square area = side length^2 (ask for side length)
+    sq =  (str(float(input(f"\nEnter a side length\n>"))))
+
+
 
     pass 
 
@@ -56,7 +63,9 @@ def choice_3(): #Trapezoid area = (a+b/2)h (ask for bases and height)
 
 ####Circle Function#####
 
-def choice_4(): 
+def choice_4(): #Circle area = 2*pi*r^2 (ask for radius)
+    pi = "3.14"
+    
 
     pass
 
