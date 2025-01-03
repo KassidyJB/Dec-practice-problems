@@ -27,4 +27,5 @@ def game():
 
 while program_loop:
     program_loop = game()
-    pass
+##I've attempted to make the loop work but it won't continue to run despite finishing. Everything works fine but 
+#the loop doesn't allow the player to try again without manually pressing the play button
