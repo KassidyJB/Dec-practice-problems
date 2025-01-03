@@ -14,13 +14,15 @@ reverse = word [::-1] ##This is a slice statement that will start at the end of 
 if word.isspace():
     print(f"\nThis is not a valid input. Please try Again!\n")#Trying to count for empty spaces as edgecase, doesn't word
     #first try
+    print("You've entered spaces, this is empty.")
 else:
     print(reverse)#printing the reversed string
 
 ##Checking to see if the reversed string reads like original string
-if reverse == word:
-    print("This is a palindrome")
-elif reverse != word:
+
+if reverse != word:
     print("This is not a palindrome")
-elif reverse.isspace():
-    print("You've entered spaces, this is empty.")
+elif reverse == word.isspace():
+    print("This is not a palindrome")
+elif reverse == word:
+    print("This is a palindrome")
