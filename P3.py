@@ -7,6 +7,12 @@
 
 def unique():
     word = str(input(f"\nEnter a word: \n"))
-    for l in word:
+    for l in word:#Using a for loop so the words' characters are iterated and checked over
         print(l)
-        if l 
+    if word.count(l) == 1: #check to make sure each letter only appears once, prints out true
+        print(True) 
+    elif word.count(l) > 1: #condition, using count to check if the letters(l) in the user's word is repeated 
+        print(False)
+unique()
+
+#any other word with the same letter repeated prints out false, except Hello. 
