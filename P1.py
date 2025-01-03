@@ -27,4 +27,4 @@ elif reverse == word.isspace():
     #the reversed string do. MY program recognizes empty spaces and provides feedback to the user, but "This is 
     # a palindrome" still prints at the end of it. Most likely because empty strings are the same back and forth
 elif reverse == word:
-    print("This is a palindrome") #checks if word reversed is the 
+    print("This is a palindrome") #checks if word reversed is the same as word input

@@ -6,4 +6,4 @@
 # if the string is unique, but hello doesn't work, this could mean characters cannot be repeated.
 
 def unique_char():
-    for 
+    pass

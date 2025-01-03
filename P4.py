@@ -7,17 +7,24 @@
 
 import random 
 
+program_loop = True #Trying to make the program loop even after failed user input 
+
 comp = random.randrange(1,100)
 
 guess = int(input(f"Guess a number between 1-100\n>"))
 
-program_loop = True 
 def game():
-    in_use = True
     if guess == comp:
-        print(f"\nCongratulations! you got it right\n")
-    elif guess < comp:
+        print(f"\nCongratulations! you got it right\n")#Getting the right guess
+    elif guess < comp:##Guess too low
         print(f"\nYour guess is too low. Try again!\n>")
-    elif guess > comp:
-        print(f"")
     
+    elif guess > comp:#Guess too high
+        print(f"\nYour guess is too high. Try again!\n>")
+    return 
+    
+
+
+while program_loop:
+    program_loop = game()
+    pass

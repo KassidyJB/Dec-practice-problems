@@ -54,10 +54,11 @@ choice_2()
 ####Trapezoid Function#####
 
 def choice_3(): #Trapezoid area = (a+b/2)h (ask for bases and height)
-    t_a = float(input(f"\nEnter a number for base 1\n>"))
-    t_b = float(input(f"\nEnter a number for base 2\n>"))
-    
-    pass 
+    t_a = float(input(f"\nEnter a number for base 1: \n"))#Base 1 input
+    t_b = float(input(f"\nEnter a number for base 2: \n"))#Base 2 input
+    h = float(input(f"\nEnter height: \n"))#Height input
+    t_area = (t_a + t_b)*h#attempting to use formula for trapezoid. Trapezoid is a shape I added to this list for fun
+chocie_3()
 
 
 ####Circle Function#####
@@ -72,6 +73,11 @@ choice_4()
 
 ####Rectangle function###
 
-def choice_5():
+def choice_5():#Rectangle Area = L*W
+    l = float(input(f"\nEnter length: \n>"))
+    w = float(input(f"\nEnter width: \n>"))
+
+
+
 
     pass
