@@ -5,5 +5,7 @@
 ##Thinking####
 # if the string is unique, but hello doesn't work, this could mean characters cannot be repeated.
 
-def unique_char():
-    pass
+def unique():
+    word = str(input(f"\nEnter a word: \n"))
+    for l in word:
+        
