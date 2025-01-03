@@ -11,10 +11,13 @@ comp = random.randrange(1,100)
 
 guess = int(input(f"Guess a number between 1-100\n>"))
 
+program_loop = True 
 def game():
-    
+    in_use = True
     if guess == comp:
         print(f"\nCongratulations! you got it right\n")
     elif guess < comp:
         print(f"\nYour guess is too low. Try again!\n>")
+    elif guess > comp:
+        print(f"")
     
